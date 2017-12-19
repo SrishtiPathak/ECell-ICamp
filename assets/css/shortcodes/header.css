@@ -132,7 +132,10 @@ Header
     position: fixed;
     top:0px;
 }
-
+.tt-nav .logo-brand1 img {
+    height: 150px;
+    float: left;
+}
 
 
 .tt-nav .logo-brand img {
