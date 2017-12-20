@@ -34,8 +34,8 @@ input[type=tel]:focus:not([readonly]),
 input[type=number]:focus:not([readonly]), 
 input[type=search]:focus:not([readonly]), 
 textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid #e040fb;
-    box-shadow: 0 1px 0 0 #e040fb; 
+    border-bottom: 1px solid #03a9f4;
+    box-shadow: 0 1px 0 0 #03a9f4; 
 }
 
 input[type=text]:focus:not([readonly]) + label, 
@@ -49,7 +49,7 @@ input[type=tel]:focus:not([readonly]) + label,
 input[type=number]:focus:not([readonly]) + label, 
 input[type=search]:focus:not([readonly]) + label, 
 textarea.materialize-textarea:focus:not([readonly]) + label {
-    color: #e040fb !important; 
+    color: #03a9f4 !important; 
 }
 
 
@@ -64,13 +64,13 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 .footer-four .secondary-footer ul li a:hover,
 .carousel-testimonial .carousel-control:focus, 
 .carousel-testimonial .carousel-control:hover {
-    color: #e040fb !important; /*theme primary color*/
+    color: #03a9f4 !important; /*theme primary color*/
 }
 
 .brand-bg,
 .brand-hover:hover,
 .pricing-table:hover .brand-hover {
-    background-color: #e040fb !important; /*theme primary background color*/
+    background-color: #03a9f4 !important; /*theme primary background color*/
 }
 
 
@@ -92,18 +92,18 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 .menuzord .menuzord-menu>li.active>a>i, 
 .menuzord .menuzord-menu>li:hover>a, 
 .menuzord .menuzord-menu>li:hover>a>i {
-    color: #e040fb !important;
+    color: #03a9f4 !important;
 }
 
 .menuzord-menu ul.dropdown li:hover>a, 
 .menuzord-menu ul.dropdown li.active>a, 
 .menuzord-menu>li>.megamenu .megamenu-row li:hover>a {
-    color: #e040fb;
+    color: #03a9f4;
 }
 
 .menuzord-menu ul.dropdown li >a::before, 
 .menuzord-menu>li>.megamenu .megamenu-row li >a::before {
-    background-color: #e040fb;
+    background-color: #03a9f4;
 }
 
 .menuzord-menu>li>a.join-btn {
@@ -121,7 +121,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 .menuzord-menu>li>a.join-btn:hover,
 .menuzord-menu>li>a.join-btn:focus,
 .menuzord .menuzord-menu>li.active>a.join-btn {
-    background: #e040fb;
+    background: #03a9f4;
     color: #fff !important;
 }
 
@@ -160,7 +160,7 @@ header.sticky .menuzord-menu>li>a.join-btn {
 
 /*Accordion*/
 .feature-accordion.brand-accordion .panel-title a {
-    background-color: #e040fb;
+    background-color: #03a9f4;
 }
 .feature-accordion .panel-title a.collapsed {
     background-color: #eee;
@@ -179,7 +179,9 @@ Background banner images
 .event-banner-3 {
     background-image: url("../../img/event/event-banner-3.jpg");  
 }
-
+.event-banner-12 {
+    background-image: url("../../img/corporate/video-bg.jpg");  
+}
 
 
 .overlay.purple-overlay:before {
@@ -199,10 +201,10 @@ Background banner images
 .border-tab.transparent-nav .nav-tabs.nav-justified>.active>a, 
 .border-tab.transparent-nav .nav-tabs.nav-justified>.active>a:focus, 
 .border-tab.transparent-nav .nav-tabs.nav-justified>.active>a:hover {
-    color: #e040fb;
+    color: #03a9f4;
 }
 .border-tab.transparent-nav .nav-tabs>li.active::after {
-    border-bottom: 3px solid #e040fb;
+    border-bottom: 3px solid #03a9f4;
 }
 
 
@@ -231,14 +233,14 @@ Background banner images
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #e040fb;
+    color: #03a9f4;
     position: relative;
 }
 .booking-form-wrapper h3:before {
     content: "";
     width: 5px;
     height: 30px;
-    background-color: #e040fb;
+    background-color: #03a9f4;
     position: absolute;
     left: -40px;
     top: -5px;
@@ -297,7 +299,7 @@ Background banner images
     position: absolute;
     left: calc(50% - -10px);
     top: 50%;
-    background-color: #e040fb;
+    background-color: #03a9f4;
     color: #fff;
     padding: 20px;
     border-radius: 4px;
