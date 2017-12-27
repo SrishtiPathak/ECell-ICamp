@@ -139,14 +139,14 @@ Header
 
 
 .tt-nav .logo-brand img {
-    height: 90px;
+    height: 120px;
     float: left;
 }
 
 .tt-nav.sticky .logo-brand img, 
 .tt-nav.sticky .logo-brand img.retina  {
 
-    height: 60px !important;
+    height: 30px !important;
 }
 
 
@@ -1126,6 +1126,6 @@ Alter logo visiblity
         display: inline;
     }
     .transparent-header .logo-light {
-        display: none;
+        display: inline;
     }
 }
